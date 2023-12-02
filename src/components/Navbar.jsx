@@ -10,7 +10,7 @@ function Navbar() {
       <Container>
         <Toolbar className='flex justify-center gap-x-2 lg:justify-between lg:px-20 py-4'>
           <Typography variant='h6'>
-            <Link to='/' style={{color:'#eee'}}>MERN POSTGRES.</Link>
+            <Link to='/' style={{color:'#eee'}}>MERN POSTGRES</Link>
           </Typography>
           <Button variant='contained' color='primary' onClick={()=>navigate('/tasks/new')}>New Task</Button>
         </Toolbar>
