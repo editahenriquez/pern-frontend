@@ -8,7 +8,7 @@ const getTasksReq = async () => {
         return response.data;
     }catch (err) {
         console.error(`Error getting tasks: ${err.message}`);
-        throw new Error(`Failed to fetch tasks. Please check your internet connection and try again later. message ${err.message} url${url}`);
+        throw new Error('Failed to fetch tasks. Please check your internet connection and try again later.');
     }
 };
 
