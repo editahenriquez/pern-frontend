@@ -4,7 +4,7 @@ import TaskForm from './components/TaskForm';
 import Navbar from './components/Navbar';
 import NotFound from './components/NotFound';
 import { TaskContextProvider } from "./context/TaskProvider"
-import { Container } from '@material-ui/core';
+import { Container } from '@mui/material';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useTasks } from '../context/TaskProvider'
-import { Button, Card, CardContent, Typography } from '@material-ui/core';
+import { Button, Card, CardContent, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
 function TaskList() {

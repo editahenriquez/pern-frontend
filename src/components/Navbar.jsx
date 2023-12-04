@@ -1,4 +1,4 @@
-import { AppBar, Box, Button, Container, Toolbar, Typography } from '@material-ui/core'
+import { AppBar, Box, Button, Container, Toolbar, Typography } from '@mui/material'
 import React from 'react'
 import {Link, useNavigate} from 'react-router-dom'
 

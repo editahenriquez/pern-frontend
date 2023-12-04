@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid, TextField, Typography, Button, CircularProgress } from "@material-ui/core"
+import { Card, CardContent, Grid, TextField, Typography, Button, CircularProgress } from "@mui/material"
 import React, { useEffect, useState } from 'react';
 import { useTasks } from '../context/TaskProvider';
 import {useParams, useNavigate} from 'react-router-dom';
